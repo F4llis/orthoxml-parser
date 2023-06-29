@@ -2,9 +2,9 @@
   "name": "orthoxml-parser",
   "version": "1.0.0",
   "description": "library to parse ortoxml and extract hog tree as json",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/F4llis/orthoxml-parser/issues"
   },
-  "homepage": "https://github.com/F4llis/orthoxml-parser#readme"
+  "homepage": "https://github.com/F4llis/orthoxml-parser#readme",
+  "devDependencies": {
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  }
 }
