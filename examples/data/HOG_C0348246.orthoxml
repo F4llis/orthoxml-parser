@@ -1,0 +1,299 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<orthoXML xmlns="http://orthoXML.org/2011/" origin="OMA" originVersion="Oct 2022" version="0.3">
+  <species name="Lachancea fermentati" NCBITaxId="4955">
+    <database name="Lachancea fermentati from Ensembl Fungi 48" version="Ensembl Fungi 48; LAFE0">
+      <genes>
+        <gene id="7928971" protId="LACFM00560"/>
+      </genes>
+    </database>
+  </species>
+  <species name="Cyberlindnera fabianii" NCBITaxId="36022">
+    <database name="Cyberlindnera fabianii from Ensembl Fungi 40" version="Ensembl Fungi 40; ASM198330v1">
+      <genes>
+        <gene id="7886122" protId="CYBFA04928"/>
+      </genes>
+    </database>
+  </species>
+  <species name="Saccharomyces cerevisiae (strain FostersO)" NCBITaxId="764101">
+    <database name="Saccharomyces cerevisiae FostersO from Ensembl Fungi 36" version="Ensembl Fungi 36; ScFostersO_v01">
+      <genes>
+        <gene id="7967177" protId="YEASO02411"/>
+      </genes>
+    </database>
+  </species>
+  <species name="Candida auris" NCBITaxId="498019">
+    <database name="[Candida] auris from Ensembl Fungi 48" version="Ensembl Fungi 48; Cand_auris_B8441_V2">
+      <genes>
+        <gene id="7879858" protId="CANAR04081"/>
+      </genes>
+    </database>
+  </species>
+  <species name="Tetrapisispora blattae (strain ATCC 34711 / CBS 6284 / DSM 70876 / NBRC 10599 / NRRL Y-10934 / UCD 77-7)" NCBITaxId="1071380">
+    <database name="Tetrapisispora blattae CBS 6284 from Ensembl Fungi 48" version="Ensembl Fungi 48; ASM31591v1">
+      <genes>
+        <gene id="7973900" protId="TETBL01629"/>
+      </genes>
+    </database>
+  </species>
+  <species name="Komagataella phaffii (strain GS115 / ATCC 20864)" NCBITaxId="644223">
+    <database name="Komagataella pastoris from Ensembl Fungi v30" version="Ensembl Fungi 30; ASM2700v1; 01-JUL-2009">
+      <genes>
+        <gene id="7894612" protId="KOMPG01877"/>
+      </genes>
+    </database>
+  </species>
+  <species name="Kazachstania naganishii (strain ATCC MYA-139 / BCRC 22969 / CBS 8797 / KCTC 17520 / NBRC 10181 / NCYC 3082 / Yp74L-3)" NCBITaxId="1071383">
+    <database name="Kazachstania naganishii CBS 8797 from Ensembl Fungi 36" version="Ensembl Fungi 36; ASM34898v1">
+      <genes>
+        <gene id="7921760" protId="KAZNA03900"/>
+      </genes>
+    </database>
+  </species>
+  <species name="Zygosaccharomyces rouxii" NCBITaxId="4956">
+    <database name="Zygosaccharomyces rouxii from ENSEMBL fungi v28" version="Ensembl Fungi 28; GCA_000026365.1; 6-JUN-2015">
+      <genes>
+        <gene id="7989992" protId="ZYGRO01712"/>
+      </genes>
+    </database>
+  </species>
+  <species name="Vanderwaltozyma polyspora (strain ATCC 22028 / DSM 70294 / BCRC 21397 / CBS 2163 / NBRC 10782 / NRRL Y-8283 / UCD 57-17)" NCBITaxId="436907">
+    <database name="Vanderwaltozyma polyspora DSM 70294 from Ensembl Fungi 38" version="Ensembl Fungi 38; ASM15003v1">
+      <genes>
+        <gene id="7986817" protId="VANPO03904"/>
+      </genes>
+    </database>
+  </species>
+  <species name="Lodderomyces elongisporus (strain ATCC 11503 / CBS 2605 / JCM 1781 / NBRC 1676 / NRRL YB-4239)" NCBITaxId="379508">
+    <database name="Lodderomyces elongisporus full genome from the BROAD Institute" version="Release 1.0">
+      <genes>
+        <gene id="7821549" protId="LODEL04560"/>
+      </genes>
+    </database>
+  </species>
+  <species name="Scheffersomyces stipitis (strain ATCC 58785 / CBS 6054 / NBRC 10063 / NRRL Y-11545)" NCBITaxId="322104">
+    <database name="Scheffersomyces stipitis (strain ATCC 58785 / CBS 6054 / NBRC 10063 / NRRL Y-11545) chromosome 1, complete sequence." version="07-JUN-2011 (Rel. 130, Last updated, Version 21)">
+      <genes>
+        <gene id="7851202" protId="PICST05083"/>
+      </genes>
+    </database>
+  </species>
+  <species name="Saccharomyces cerevisiae (strain VIN 13)" NCBITaxId="764099">
+    <database name="Saccharomyces cerevisiae Vin13 from Ensembl Fungi 38" version="Ensembl Fungi 38; ScVIN13_v01">
+      <genes>
+        <gene id="7972155" protId="YEASV03814"/>
+      </genes>
+    </database>
+  </species>
+  <species name="Tetrapisispora phaffii (strain ATCC 24235 / CBS 4417 / NBRC 1672 / NRRL Y-8282 / UCD 70-5)" NCBITaxId="1071381">
+    <database name="Tetrapisispora phaffii CBS 4417 from Ensembl Fungi 48" version="Ensembl Fungi 48; ASM23690v1">
+      <genes>
+        <gene id="7979211" protId="TETPH01551"/>
+      </genes>
+    </database>
+  </species>
+  <species name="Ashbya gossypii (strain ATCC 10895 / CBS 109.51 / FGSC 9923 / NRRL Y-1056)" NCBITaxId="284811">
+    <database name="Ashbya gossypii from ENSEMBL fungi v21" version="Ensembl Fungi 21; ASM9102v1; 5-DEC-2013">
+      <genes>
+        <gene id="7915264" protId="ASHGO02161"/>
+      </genes>
+    </database>
+  </species>
+  <species name="Spathaspora passalidarum (strain NRRL Y-27907 / 11-Y1)" NCBITaxId="619300">
+    <database name="Spathaspora passalidarum from JGI" version="JGI; Spapa3; 07-MAR-2012">
+      <genes>
+        <gene id="7852945" protId="SPAPN01027"/>
+      </genes>
+    </database>
+  </species>
+  <species name="Candida tenuis" NCBITaxId="2315449">
+    <database name="Candida tenuis from JGI" version="JGI; Cante1; 07-MAR-2012">
+      <genes>
+        <gene id="7860023" protId="CANTE02132"/>
+      </genes>
+    </database>
+  </species>
+  <species name="Eremothecium cymbalariae (strain CBS 270.75 / DBVPG 7215 / KCTC 17166 / NRRL Y-17582)" NCBITaxId="931890">
+    <database name="Eremothecium cymbalariae DBVPG#7215 from Ensembl Fungi 51" version="Ensembl Fungi 51; ASM23536v1">
+      <genes>
+        <gene id="7912595" protId="ERECY03926"/>
+      </genes>
+    </database>
+  </species>
+  <species name="Candida glabrata (strain ATCC 2001 / CBS 138 / JCM 3761 / NBRC 0622 / NRRL Y-65)" NCBITaxId="284593">
+    <database name="Candida glabrata strain CBS138 from EBI genomes" version="16-DEC-2008 (Rel. 98, Last updated, Version 10)">
+      <genes>
+        <gene id="7939377" protId="CANGA00641"/>
+      </genes>
+    </database>
+  </species>
+  <species name="Dekkera bruxellensis" NCBITaxId="5007">
+    <database name="Dekkera bruxellensis from JGI" version="JGI; Dekbr2; 07-MAR-2012">
+      <genes>
+        <gene id="7899790" protId="DEKBR02017"/>
+      </genes>
+    </database>
+  </species>
+  <species name="Naumovozyma castellii (strain ATCC 76901 / BCRC 22586 / CBS 4309 / NBRC 1992 / NRRL Y-12630)" NCBITaxId="1064592">
+    <database name="Naumovozyma castellii CBS 4309 from Ensembl Fungi 48" version="Ensembl Fungi 48; ASM23734v1">
+      <genes>
+        <gene id="7947606" protId="NAUCC04118"/>
+      </genes>
+    </database>
+  </species>
+  <species name="Candida albicans (strain SC5314 / ATCC MYA-2876)" NCBITaxId="237561">
+    <database name="Candida albicans SC5314 from Ensembl Fungi 36" version="Ensembl Fungi 36; Cand_albi_SC5314_V4">
+      <genes>
+        <gene id="7804085" protId="CANAL05165"/>
+      </genes>
+    </database>
+  </species>
+  <species name="Candida albicans (strain WO-1)" NCBITaxId="294748">
+    <database name="Candida albicans WO-1 from EBI genomes" version="12-JUN-2009 (Rel. 101, Last updated, Version 5)">
+      <genes>
+        <gene id="7806893" protId="CANAW01585"/>
+      </genes>
+    </database>
+  </species>
+  <species name="Ogataea parapolymorpha (strain ATCC 26012 / BCRC 20466 / JCM 22074 / NRRL Y-7560 / DL-1)" NCBITaxId="871575">
+    <database name="Ogataea parapolymorpha DL-1 from Ensembl Fungi 42" version="Ensembl Fungi 42; Hansenula_2">
+      <genes>
+        <gene id="7907285" protId="OGAPD03941"/>
+      </genes>
+    </database>
+  </species>
+  <species name="Meyerozyma guilliermondii (strain ATCC 6260 / CBS 566 / DSM 6381 / JCM 1539 / NBRC 10279 / NRRL Y-324)" NCBITaxId="294746">
+    <database name="Meyerozyma guilliermondii ATCC 6260 from Ensembl Fungi 36" version="Ensembl Fungi 36; ASM14942v1">
+      <genes>
+        <gene id="7829157" protId="PICGU00133"/>
+      </genes>
+    </database>
+  </species>
+  <species name="Candida maltosa (strain Xu316)" NCBITaxId="1245528">
+    <database name="Candida maltosa Xu316 from Ensembl Fungi 51" version="Ensembl Fungi 51; Cmaltosa_v01">
+      <genes>
+        <gene id="7816268" protId="CANMX05265"/>
+      </genes>
+    </database>
+  </species>
+  <species name="Lachancea thermotolerans (strain ATCC 56472 / CBS 6340 / NRRL Y-8284)" NCBITaxId="559295">
+    <database name="Lachancea thermotolerans CBS 6340 from Ensembl Fungi 38" version="Ensembl Fungi 38; ASM14280v1">
+      <genes>
+        <gene id="7936719" protId="LACTC03075"/>
+      </genes>
+    </database>
+  </species>
+  <species name="Debaryomyces hansenii (strain ATCC 36239 / CBS 767 / BCRC 21394 / JCM 1990 / NBRC 0083 / IGC 2968)" NCBITaxId="284592">
+    <database name="Debaryomyces hansenii CBS767 from EBI genomes" version="10-SEP-2008 (Rel. 97, Last updated, Version 9)">
+      <genes>
+        <gene id="7825850" protId="DEBHA03089"/>
+      </genes>
+    </database>
+  </species>
+  <species name="Diutina rugosa" NCBITaxId="5481">
+    <database name="Diutina rugosa from Ensembl Fungi 52" version="Ensembl Fungi 52; ASM870459v1">
+      <genes>
+        <gene id="7995722" protId="DIURU02455"/>
+      </genes>
+    </database>
+  </species>
+  <species name="Saccharomyces cerevisiae (strain ATCC 204508 / S288c)" NCBITaxId="559292">
+    <database name="Saccharomyces cerevisiae from ENSEMBL v73" version="Ensembl 73; EF4; 23-AUG-2013">
+      <genes>
+        <gene id="7954643" protId="YEAST00015"/>
+      </genes>
+    </database>
+  </species>
+  <species name="Saccharomyces cerevisiae (strain AWRI796)" NCBITaxId="764097">
+    <database name="Saccharomyces cerevisiae AWRI796 from Ensembl Fungi 38" version="Ensembl Fungi 38; ScAWRI796_v01">
+      <genes>
+        <gene id="7963760" protId="YEASA02780"/>
+      </genes>
+    </database>
+  </species>
+  <species name="Kluyveromyces lactis (strain ATCC 8585 / CBS 2359 / DSM 70799 / NBRC 1267 / NRRL Y-1140 / WM37)" NCBITaxId="284590">
+    <database name="Kluyveromyces lactis strain NRRL Y-1140 chromosome F of strain NRRL Y-1140 of Kluyveromyces lactis" version="17-APR-2005 (Rel. 83, Last updated, Version 4)">
+      <genes>
+        <gene id="7923195" protId="KLULA00014"/>
+      </genes>
+    </database>
+  </species>
+  <species name="Cyberlindnera jadinii (strain ATCC 18201 / CBS 1600 / BCRC 20928 / JCM 3617 / NBRC 0987 / NRRL Y-1542)" NCBITaxId="983966">
+    <database name="Cyberlindnera jadinii NRRL Y-1542 from Ensembl Fungi 42" version="Ensembl Fungi 42; Cybja1">
+      <genes>
+        <gene id="7892687" protId="CYBJN05984"/>
+      </genes>
+    </database>
+  </species>
+  <groups>
+    <orthologGroup id="HOG:C0348246">
+      <property name="TaxRange" value="Saccharomycetales"/>
+      <paralogGroup>
+        <orthologGroup>
+          <property name="TaxRange" value="Cyberlindnera"/>
+          <geneRef id="7886122"/>
+          <geneRef id="7892687"/>
+        </orthologGroup>
+        <geneRef id="7894612"/>
+      </paralogGroup>
+      <geneRef id="7995722"/>
+      <geneRef id="7879858"/>
+      <orthologGroup>
+        <property name="TaxRange" value="Pichiaceae"/>
+        <geneRef id="7899790"/>
+        <geneRef id="7907285"/>
+      </orthologGroup>
+      <orthologGroup>
+        <property name="TaxRange" value="Debaryomycetaceae"/>
+        <geneRef id="7825850"/>
+        <geneRef id="7829157"/>
+        <geneRef id="7851202"/>
+        <geneRef id="7852945"/>
+        <geneRef id="7860023"/>
+        <orthologGroup>
+          <property name="TaxRange" value="Candida/Lodderomyces clade"/>
+          <geneRef id="7821549"/>
+          <orthologGroup>
+            <property name="TaxRange" value="Candida"/>
+            <geneRef id="7816268"/>
+            <orthologGroup>
+              <property name="TaxRange" value="Candida albicans"/>
+              <geneRef id="7804085"/>
+              <geneRef id="7806893"/>
+            </orthologGroup>
+          </orthologGroup>
+        </orthologGroup>
+      </orthologGroup>
+      <orthologGroup>
+        <property name="TaxRange" value="Saccharomycetaceae"/>
+        <geneRef id="7921760"/>
+        <geneRef id="7923195"/>
+        <geneRef id="7939377"/>
+        <geneRef id="7986817"/>
+        <geneRef id="7989992"/>
+        <orthologGroup>
+          <property name="TaxRange" value="Eremothecium"/>
+          <geneRef id="7912595"/>
+          <geneRef id="7915264"/>
+        </orthologGroup>
+        <orthologGroup>
+          <property name="TaxRange" value="Lachancea"/>
+          <geneRef id="7928971"/>
+          <geneRef id="7936719"/>
+        </orthologGroup>
+        <geneRef id="7947606"/>
+        <orthologGroup>
+          <property name="TaxRange" value="Tetrapisispora"/>
+          <geneRef id="7973900"/>
+          <geneRef id="7979211"/>
+        </orthologGroup>
+        <orthologGroup>
+          <property name="TaxRange" value="Saccharomyces cerevisiae"/>
+          <geneRef id="7954643"/>
+          <geneRef id="7963760"/>
+          <geneRef id="7967177"/>
+          <geneRef id="7972155"/>
+        </orthologGroup>
+      </orthologGroup>
+    </orthologGroup>
+  </groups>
+</orthoXML>
