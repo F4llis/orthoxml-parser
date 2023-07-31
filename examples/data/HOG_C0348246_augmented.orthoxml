@@ -543,6 +543,7 @@
         <property name="taxid" value="4893"/>
       </orthologGroup>
       <score id="CompletenessScore" value="0.889"/>
+      <score id="TestScore" value="666"/>
       <property name="NrMemberGenes" value="32"/>
       <property name="taxid" value="4892"/>
     </orthologGroup>

@@ -25,7 +25,7 @@ const parse = function(orthoxml){
             children : [],
             paralog: group.name == 'paralogGroup' ? true: false,
             species: null,
-            completeness_score: null,
+            CompletenessScore: null,
             taxid: null,
             nr_members: null,
         }
@@ -70,8 +70,8 @@ const parse = function(orthoxml){
             _current.taxid = args.attributes.value
         }
 
-        else if ( tagName === "score" && args.attributes.id === "CompletenessScore" ) {
-            _current.completeness_score = args.attributes.value
+        else if ( tagName === "score" ) {
+            _current[args.attributes.id ] = args.attributes.value
         }
 
 

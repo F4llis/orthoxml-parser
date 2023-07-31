@@ -46,7 +46,8 @@ test('check extended information parsed', () => {
 
     var data = OrthoxmlParser.parse(data_augmented);
     expect(data.id).toBe('HOG:C0348246_4892');
-    expect(data.completeness_score).toBe('0.889');
+    expect(data.CompletenessScore).toBe('0.889');
+    expect(data.TestScore).toBe('666');
     expect(data.nr_members).toBe('32');
     expect(data.taxid).toBe('4892');
     expect(data.paralog).toBe(false);
