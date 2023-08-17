@@ -4,9 +4,12 @@ const parse = function(orthoxml){
 
     var build_leaf = function(gene_ref){
 
+        var mapped = _mapping[parseInt(gene_ref.attributes.id, 10)]
+
 
         var leaf = {
-            id: _mapping[parseInt(gene_ref.attributes.id, 10)]
+            id: mapped.protid,
+            species: mapped.species
         }
 
         if (gene_ref.attributes.LOFT) {
@@ -39,14 +42,16 @@ const parse = function(orthoxml){
         var tagName =  args.name;
 
         if (tagName === "geneRef") {
-
             var l = build_leaf(args)
             _current.children.push(l)
+        }
 
+        else if (tagName === "species") {
+            _species =  args.attributes.name
         }
 
         else if (tagName === "gene") {
-            _mapping[args.attributes.id] =  args.attributes.protId
+            _mapping[args.attributes.id] =  {protid: args.attributes.protId, species: _species }
         }
 
         else if (tagName === "orthologGroup" || tagName === "paralogGroup" ) {
@@ -88,11 +93,17 @@ const parse = function(orthoxml){
 
         }
 
+    else if (tagName === "species") {
+        _species =  null;
+    }
+
     };
+
 
     var parser = sax.parser(true, {});
     var _current = {'children': []};
     var _mapping = {};
+    var _species = null;
 
     parser.onopentag = openTag;
     parser.onclosetag = closeTag;

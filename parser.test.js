@@ -9,6 +9,8 @@ const path = require("path");
 const data_simple = fs.readFileSync(path.join('./examples/data/', "./", "HOG_C0348246.orthoxml"), "utf8");
 const data_augmented = fs.readFileSync(path.join('./examples/data/', "./", "HOG_C0348246_augmented.orthoxml"), "utf8");
 
+
+
 expect.extend({
     toContainObject(received, argument) {
 
@@ -71,6 +73,8 @@ test('check hierarchy simple', () => {
 
         var c = data.children[c];
 
+        delete c['species']
+
         if (c.children) {
 
             switch (c.children.length) {
@@ -90,7 +94,7 @@ test('check hierarchy simple', () => {
         }
 
         else{
-            expect([{ id: 'CANAR04081'},{ id: 'DIURU02455'}]).toContainObject(c)
+            expect([{ id: 'CANAR04081', species: 'Candida auris'},{ id: 'DIURU02455', species: 'Diutina rugosa'}]).toContainObject(c)
         }
 
     }
@@ -102,23 +106,29 @@ test('check hierarchy simple', () => {
 
     // CHECK LEVEL -2 PARA2
     expect(c2_para.children[1].id).toBe('KOMPG01877');
-    check_children(c2_para.children[0].children, [{ id: 'CYBFA04928'},{ id: 'CYBJN05984'}])
+    expect(c2_para.children[1].species).toBe('Komagataella phaffii (strain GS115 / ATCC 20864)');
+
+
+    check_children(c2_para.children[0].children, [{ id: 'CYBFA04928', "species": "Cyberlindnera fabianii"},{ id: 'CYBJN05984', "species": "Cyberlindnera jadinii (strain ATCC 18201 / CBS 1600 / BCRC 20928 / JCM 3617 / NBRC 0987 / NRRL Y-1542)"}])
 
     // CHECK LEVEL -2 ORTHO2
-    check_children(c2_ortho.children, [{ id: 'DEKBR02017'},{ id: 'OGAPD03941'}])
+    check_children(c2_ortho.children, [{ id: 'DEKBR02017', "species": "Dekkera bruxellensis"},{ id: 'OGAPD03941', "species": "Ogataea parapolymorpha (strain ATCC 26012 / BCRC 20466 / JCM 22074 / NRRL Y-7560 / DL-1)"}])
 
     // CHECK LEVEL -2 ORTHO6
 
     for (var i= 0; i < c6.children.length -1; i++) {
+        delete c6.children[i]['species']
         expect([{ id: 'DEBHA03089'},{ id: 'PICGU00133'},{ id: 'PICST05083'},{ id: 'SPAPN01027'},{ id: 'CANTE02132'}]).toContainObject(c6.children[i])
     }
     var c6_2 = c6.children[5];
 
     // CHECK LEVEL -3 ORTHO6
+    delete c6_2.children[0]['species']
     expect([{ id: 'LODEL04560'}]).toContainObject(c6_2.children[0])
     var c6_2_2 = c6_2.children[1]
 
     // CHECK LEVEL -4 ORTHO6
+    delete c6_2_2.children[0]['species']
     expect([{ id: 'CANMX05265'}]).toContainObject(c6_2_2.children[0])
     var c6_2_2_2 = c6_2_2.children[1]
 
@@ -128,9 +138,11 @@ test('check hierarchy simple', () => {
     // CHECK LEVEL -2 ORTHO10
 
     for (var i= 0; i < 5; i++) {
+        delete c10.children[i]['species']
         expect([{ id: 'KAZNA03900'},{ id: 'NAUCC04118'},{ id: 'KLULA00014'},{ id: 'CANGA00641'},{ id: 'VANPO03904'},{ id: 'ZYGRO01712'}]).toContainObject(c10.children[i])
     }
 
+    delete c10.children[7]['species']
     expect([{ id: 'KAZNA03900'},{ id: 'NAUCC04118'},{ id: 'KLULA00014'},{ id: 'CANGA00641'},{ id: 'VANPO03904'},{ id: 'ZYGRO01712'}]).toContainObject(c10.children[7])
 
 
@@ -150,6 +162,7 @@ test('check hierarchy simple', () => {
 function check_children(children, ref){
 
     for (const childrenKey in children) {
+        delete children[childrenKey]['species']
         expect(ref).toContainObject(children[childrenKey])
     }
 }
